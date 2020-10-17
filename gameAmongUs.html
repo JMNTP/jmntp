@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+
+<!-- Mirrored from www.innersloth.com/gameAmongUs.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Oct 2020 05:28:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8">
+<title>Among Us</title>
+<link rel="stylesheet" type="text/css" href="websiteStyle.css">
+<style>
+.container {
+	/*banner image, src from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity*/
+	position: relative;
+	margin: auto;
+	width: 80%;
+}
+.image {
+	/*still banner image? lol*/
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.middle {
+	/*inner logo postitioning*/
+	transition: .5s ease;
+	opacity: 1; /*Change this if you want the logo to not appear unless rolled over*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+.text {
+	/*logo image*/
+	color: white;
+	width: 100%;
+	height: auto;
+}
+/*Image Popout stuff, found: https://stackoverflow.com/questions/41275958/modal-image-galleries-multiple-images*/
+	/* Style the Image Used to Trigger the Modal */
+.myImg {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.myImg:hover {
+	opacity: 0.7;
+}
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+/* Modal Content (Image) */
+.modal-content {
+	margin: auto;
+	display: block;
+	width: 60%; /*size of image in the modal*/
+	max-width: 700px;
+}
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+	-webkit-animation-name: zoom;
+	-webkit-animation-duration: 0.6s;
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+ @-webkit-keyframes zoom {
+ from {
+-webkit-transform:scale(0)
+}
+ to {
+-webkit-transform:scale(1)
+}
+}
+ @keyframes zoom {
+ from {
+transform:scale(0)
+}
+ to {
+transform:scale(1)
+}
+}
+/* The Close Button */
+.close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+.close:hover, .close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+.modal-content {
+	width: 100%;
+}
+}
+/*Thumbnail size stuff*/
+.thumb {
+	max-height: 120px;
+	width: auto;
+}
+</style>
+</head>
+
+<body>
+<!--style divs and logos, buttons, and bar start here-->
+<div class="outer">
+  <div class="inner">
+    <div class="main">
+	<p>
+	<a href="index.html"><img src="Images/logo/logo.png" alt="Innersloth" class="logo"/></a><br/>
+	<a href="index.html"><img src="Images/button_Games.png" alt="GAMES" class="buttons"/></a>
+	<a href="About.html"><img src="Images/button_About.png" alt="ABOUT" class="buttons"/></a>
+	<a href="https://store.innersloth.com/"><img src="Images/button_Merch.png" alt="MERCH" class="buttons"/></a>
+</p>
+<hr style="width: 70%; height: auto; border-width: 2pt; border-color: #000000; border-style: solid; background-color: black">	<!--logos, buttons, and bar end here-->
+      <p>
+      <div class="container"><img src="Images/GAMES/AmongUs/banner_AmongUs.jpg" alt="Among Us" class="image" style="width:100%">
+        <div class="middle">
+          <div class="text"><img src="Images/GAMES/AmongUs/bannerLogo_AmongUs.png" alt="Among Us" style="width: 100%; height: auto;"></div>
+        </div>
+        </div>
+      </p>
+      <hr style="width: 70%; height: auto; border-width: 2pt; border-color: #000000; border-style: solid; background-color: black">
+      <div style="text-align: left; margin: 2% 10%;">
+				<p>Hola folks! Halloween is here and now we're gonna grab some games for you. </p>
+
+				<p>
+				2020 has been quite a spooky year so far and with all the things going on Naughty Dog Productions have launched their new game "Among us".
+				</p>
+
+			<p>
+			The rules of the game are quite simple: you can play this game online and offline. App can be downloaded via app store.</p>
+
+
+
+				<p>Join your crewmates in a multiplayer game of teamwork and betrayal!</p>
+				<b>Online Rules:</b>
+			<p>Play online or over local wifi with 4-10 players as you attempt to hold your spaceship together and return back to civilization. But beware...as there may be an alien impostor aboard!</p>
+		  <p>One crewmate has been replaced by a parasitic shapeshifter. Their goal is to eliminate the rest of the crew before the ship reaches home. The Impostor will sabotage the ship, sneak through vents, deceive, and frame others to remain anonymous and kill off the crew.</p>
+		  <p>While everyone is fixing up the ship, no one can talk to maintain anonymity. Once a body is reported, the surviving crew will openly debate who they think The Impostor is. The Impostor's goal is to pretend that they are a member of the crew. If The Impostor is not voted off, everyone goes back to maintaining the ship until another body is found. If The Impostor is voted off, the crew wins!</p>
+
+
+			<b>Ofline Rules:</b>
+			<ol>
+				<li>A minimum of 10 players are required to play the game, we don't want to ruin the power by including less folks. So go out and grab your dummies first.</li>
+				<li>Materials required for the game: 10 different color paper that are stuck on your cloth to identify you by the color.(Note: Name cannot be revealed in the game in any case). </li>
+				<li>The squad leader decides who will carry the weapons. The weapons can range from a small knife or any inflammables. (Note: the size of the weapon must be enough to not be spotted by the other players).</li>
+				<li>There would be two parties: civilians and imposter. The division would be by a blind trial or number.</li>
+				<li>Minimum area required to play the game ranges from a whole house to a playground with sufficient places to hide.</li>
+				<li>The civilians are bound to complete the task as mentioned in the logbook of the site while the imposter cannot complete the task but can kill the civilians.</li>
+				<li>The imposter while making the kill must not speak, react. Killling can be made by simply lighting the lighter against the civilian or pointing out the knife.</li>
+				<li>After the death of the civilian the civilian must stand still at the place but must draw an "X" on the color placard on the dress.</li>
+				<li>If any other civilian finds the dead body, he must report it to other members.</li>
+				<li>Members can have a group discussion to find out who the imposter is and can vote this person out. Civilians if unsure can skip voting.</li>
+				<li>he game is won by the imposter getting caught or by civilians completing their task or by the imposter killing the civilians until the last man stands.</li>
+
+			</ol>
+
+			<h3>So hurry up folks this Halloween to find out the imposter AMONG US!</h3>
+		</div>
+
+		<p>
+			<p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/NSJ4cESNQfE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</p>
+
+			<a href="https://play.google.com/store/apps/details?id=com.innersloth.spacemafia&amp;utm_source=global_co&amp;utm_medium=prtnr&amp;utm_content=Mar2515&amp;utm_campaign=PartBadge&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img style="max-height: 40px; width: auto; margin: .5%" alt="Get it on Google Play" src="Images/google-play-badge.png"/></a>
+			<a href="https://itunes.apple.com/us/app/among-us/id1351168404?ls=1&amp;mt=8"><img style="max-height: 40px; width: auto; margin: .5%" alt="Get it on the App Store" src="Images/appstore.svg"/></a>
+		</p>
+
+		<iframe frameborder="0" src="https://itch.io/embed/257677" width="646" height="167"></iframe>
+		<iframe src="https://store.steampowered.com/widget/945360/" frameborder="0" width="646" height="190"></iframe>
+      <hr style="width: 70%; height: auto; border-width: 2pt; border-color: #000000; border-style: solid; background-color: black">
+
+      <!--Gettin' that jscript, lol-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <!-- Trigger the Modal -->
+      <!--thumb images-->
+      <div style="margin: 2% 8%;">
+        <p><img class="myImg thumb" src="Images/GAMES/AmongUs/promoFinal.jpg" alt="Among Us Promo 2018">
+		<img class="myImg thumb" src="Images/GAMES/AmongUs/releaseWeek_promos3.jpg" alt="AU Release Promo - Emergency Meeting">
+		<img class="myImg thumb" src="Images/GAMES/AmongUs/holiday2018hatsPromo.jpg" alt="Among Us Holiday Promo 2018">
+		<img class="myImg thumb" src="Images/GAMES/AmongUs/miraPromo_tower.jpg" alt="MIRA HQ Map DLC - Tower">
+		<img class="myImg thumb" src="Images/GAMES/AmongUs/miraPromo_skyBridge.jpg" alt="MIRA HQ Map DLC - Sky Bridge">
+		<img class="myImg thumb" src="Images/GAMES/AmongUs/polus_promo1.jpg" alt="Polus Map DLC - Specimen Room">
+		<img class="myImg thumb" src="Images/GAMES/AmongUs/polus_promo2.jpg" alt="Polus Map DLC - Polus">
+		<img class="myImg thumb" src="Images/GAMES/AmongUs/petsPromo.jpg" alt="Among Us Pets DLCs">
+		<img class="myImg thumb" src="Images/GAMES/AmongUs/2019_halloweenPromo.jpg" alt="Among Us Halloween 2019">
+		</p>
+      </div>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- The Close Button -->
+        <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01" alt="Dig 2 China">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+      <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = $('.myImg');
+var modalImg = $("#img01");
+var captionText = document.getElementById("caption");
+$('.myImg').click(function(){
+    modal.style.display = "block";
+    var newSrc = this.src;
+    modalImg.attr('src', newSrc);
+    captionText.innerHTML = this.alt;
+});
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+      <!--Footer Starts-->
+    </div>
+  </div>
+  <p>
+ <div id="mc_embed_signup">
+  <form action="https://innersloth.us17.list-manage.com/subscribe/post?u=5f31c145a3f6a7f5225078d91&amp;id=1838435f9b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div><div>
+          <input type="email" class="required email" id="mce-EMAIL" value="" name="EMAIL" placeholder=" Sign up to our newsletter with email!" style="line-height: 18pt; width: 200px; font-size: 9pt;">
+        <input type="submit" value="SUBSCRIBE" name="subscribe" style="background: black; border-style: none; color: white; font-family: verdana, sans serif; font-size: 10pt; padding-top: 5pt; padding-bottom: 5pt; padding-left: 10pt; padding-right: 10pt;">
+		</div>
+            <div id="mce-responses">
+		<div id="mce-error-response" style="display: none" class="responses"></div>
+		<div id="mce-success-response" style="display:none" class="responses"></div>
+	</div>
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+        <input type="text" name="b_5f31c145a3f6a7f5225078d91_1838435f9b" tabindex="-1" value="">
+      </div>
+    </div>
+  </form>
+  <script type="text/javascript" src="http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+  <script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
+  <!--End mc_embed_signup-->
+  <p>
+	<a href="https://discord.gg/ZKBX694"><img src="Images/Discord-Logo-Color.png" alt="Discord" class="footer" style="margin-right: 10px;"></a>
+	<a href="https://www.facebook.com/InnerSloth/"><img src="Images/FB-f-Logo__blue_50.png" alt="Facebook" class="footer" style="margin-right: 10px;"></a>
+	<a href="https://twitter.com/InnerslothDevs"><img src="Images/Twitter_Social_Icon_Rounded_Square_Color_small.png" class="footer" alt="Twitter"></a>
+	<a href="https://innersloth.newgrounds.com/"><img src="Images/NG_TANK.png" class="footer" alt="Newgrounds" style="margin-left: 10px;"></a>
+  </p>
+</p></div>
+<!--Footer Ends-->
+</body>
+
+<!-- Mirrored from www.innersloth.com/gameAmongUs.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Oct 2020 05:29:16 GMT -->
+</html>
