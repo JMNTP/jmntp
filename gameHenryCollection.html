@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+
+<!-- Mirrored from www.innersloth.com/gameHenryCollection.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Oct 2020 05:30:11 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8">
+<title>The Henry Stickmin Collection</title>
+<link rel="stylesheet" type="text/css" href="websiteStyle.css">
+<style>
+.container {
+	/*banner image, src from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity*/
+	position: relative;
+	margin: auto;
+	width: 80%;
+}
+.image {
+	/*still banner image? lol*/
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.middle {
+	/*inner logo postitioning*/
+	transition: .5s ease;
+	opacity: 1; /*Change this if you want the logo to not appear unless rolled over*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+.text {
+	/*logo image*/
+	color: white;
+	width: 100%;
+	height: auto;
+}
+/*Image Popout stuff, found: https://stackoverflow.com/questions/41275958/modal-image-galleries-multiple-images*/
+	/* Style the Image Used to Trigger the Modal */
+.myImg {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.myImg:hover {
+	opacity: 0.7;
+}
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+/* Modal Content (Image) */
+.modal-content {
+	margin: auto;
+	display: block;
+	width: 40%; /*size of image in the modal*/
+	max-width: 800px;
+}
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+	-webkit-animation-name: zoom;
+	-webkit-animation-duration: 0.6s;
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+ @-webkit-keyframes zoom {
+ from {
+-webkit-transform:scale(0)
+}
+ to {
+-webkit-transform:scale(1)
+}
+}
+ @keyframes zoom {
+ from {
+transform:scale(0)
+}
+ to {
+transform:scale(1)
+}
+}
+/* The Close Button */
+.close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+.close:hover, .close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+.modal-content {
+	width: 100%;
+}
+}
+/*Thumbnail size stuff*/
+.thumb {
+	max-height: 120px;
+	width: auto;
+}
+</style>
+</head>
+
+<body>
+<!--style divs and logos, buttons, and bar start here-->
+<div class="outer">
+  <div class="inner">
+    <div class="main">
+	<p>
+	<a href="index.html"><img src="Images/logo/logo.png" alt="Innersloth" class="logo"/></a><br/>
+	<a href="index.html"><img src="Images/button_Games.png" alt="GAMES" class="buttons"/></a>
+	<a href="About.html"><img src="Images/button_About.png" alt="ABOUT" class="buttons"/></a>  
+	<a href="https://store.innersloth.com/"><img src="Images/button_Merch.png" alt="MERCH" class="buttons"/></a>
+</p>
+<hr style="width: 70%; height: auto; border-width: 2pt; border-color: #000000; border-style: solid; background-color: black">	<!--logos, buttons, and bar end here-->
+      <p>
+      <div class="container"><img src="Images/GAMES/HenryCollection/banner_HenryCTM.jpg" alt="The Henry Stickmin Collection" class="image" style="width:100%">
+        <div class="middle">
+          <div class="text"><img src="Images/GAMES/HenryCollection/HSLogo.png" alt="The Henry Stickmin Collection" style="width: 55%; height: auto;"></div>
+        </div>
+      </div>
+      </p>
+      <div style="text-align: left; margin: 2% 10%;">
+        <hr style="width: 70%; height: auto; border-width: 2pt; border-color: #000000; border-style: solid; background-color: black">
+        <p>It's all the Henry Stickmin games in one place! That's right! <a href="https://www.newgrounds.com/portal/view/457209">Breaking the Bank</a>, <a href="https://www.newgrounds.com/portal/view/533001">Escaping the Prison</a>, <a href="https://www.newgrounds.com/portal/view/574241">Stealing the Diamond</a>, <a href="https://www.newgrounds.com/portal/view/618518">Infiltrating the Airship</a>, and <a href="https://www.newgrounds.com/portal/view/665992">Fleeing the Complex</a>, plus a new game that will be the Henry Stickmin finale.</p>
+        <p>Breaking the Bank has been completely redone. All the previous games have newly remastered art and sound. To top it all off, a new Henry Stickmin game was developed to complete the series, Completing the Mission! CtM is 3x bigger than Fleeing the Complex and features 16 Endings and 164 Fails!</p>
+		<p>All the Henry Stickmin games, including the new CtM, will be part of The Henry Stickmin Collection! Available August 7th 9am PDT on Steam! If you're interested in seeing some development logs and listening to the music from the HS games, please check out <a href="https://puffballsunited.newgrounds.com/">Puffballs' Newgrounds!</a></p>
+		<p style='text-align:center'><iframe width="560" height="315" src="https://www.youtube.com/embed/M0JtUImSEzU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+        <p style='text-align:center'><iframe src="https://store.steampowered.com/widget/1089980/" frameborder="0" width="646" height="190"></iframe></p>
+      </div>
+      <hr style="width: 70%; height: auto; border-width: 2pt; border-color: #000000; border-style: solid; background-color: black">
+      
+      <!--Gettin' that jscript, lol--> 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+      <!-- Trigger the Modal --> 
+      <!--thumb images-->
+      <div style="margin: 2% 8%;">
+        <p><img class="myImg thumb" src="Images/GAMES/HenryCollection/BackdoorOldNew.png" alt="Before and After for Stealing the Diamond">
+			<img class="myImg thumb" src="Images/GAMES/HenryCollection/recordsOldNew.jpg" alt="Before and After for Infiltrating the Airship">
+			<img class="myImg thumb" src="Images/GAMES/HenryCollection/airshipoldNew.png" alt="Before and After for Infiltrating the Airship">
+			<img class="myImg thumb" src="Images/GAMES/HenryCollection/HenryEllieoldnew.png" alt="Before and After for Fleeing the Complex">
+			<img class="myImg thumb" src="Images/GAMES/HenryCollection/etcOldNew.png" alt="Before and After for Fleeing the Complex">
+			<img class="myImg thumb" src="Images/GAMES/HenryCollection/museumOldNew.jpg" alt="Before and After for Stealing the Diamond">
+			<img class="myImg thumb" src="Images/GAMES/HenryCollection/WW2OldNew.jpg" alt="Before and After for Stealing the Diamond">
+			<img class="myImg thumb" src="Images/GAMES/HenryCollection/ctm_choices.jpg" alt="The Henry Stickmin Completing the Mission Menu">
+			<img class="myImg thumb" src="Images/GAMES/HenryCollection/ctm_103.jpg" alt="The Henry Stickmin Completing the Mission; Train Sunset">
+			<img class="myImg thumb" src="Images/GAMES/HenryCollection/ctm_33.jpg" alt="The Henry Stickmin Completing the Mission; Sneaking around Toppat Base">
+			<img class="myImg thumb" src="Images/GAMES/HenryCollection/ctm_81.jpg" alt="The Henry Stickmin Completing the Mission; Henry and Ellie">
+			<img class="myImg thumb" src="Images/GAMES/HenryCollection/ctm_THbase.jpg" alt="The Henry Stickmin Completing the Mission; Toppat Clan Base">
+			<img class="myImg thumb" src="Images/GAMES/HenryCollection/thsc_Poster.jpg" alt="The Henry Stickmin Completing the Mission Poster">
+		  </p>
+      </div>
+      <!-- The Modal -->
+      <div id="myModal" class="modal"> 
+        <!-- The Close Button --> 
+        <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span> 
+        <!-- Modal Content (The Image) --> 
+        <img class="modal-content" id="img01" alt="Dig 2 China"> 
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+      <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = $('.myImg');
+var modalImg = $("#img01");
+var captionText = document.getElementById("caption");
+$('.myImg').click(function(){
+    modal.style.display = "block";
+    var newSrc = this.src;
+    modalImg.attr('src', newSrc);
+    captionText.innerHTML = this.alt;
+});
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script> 
+      
+      <!--Footer Starts--> 
+    </div>
+  </div>
+  <p>
+ <div id="mc_embed_signup">
+  <form action="https://innersloth.us17.list-manage.com/subscribe/post?u=5f31c145a3f6a7f5225078d91&amp;id=1838435f9b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div><div>
+          <input type="email" class="required email" id="mce-EMAIL" value="" name="EMAIL" placeholder=" Sign up to our newsletter with email!" style="line-height: 18pt; width: 200px; font-size: 9pt;">
+        <input type="submit" value="SUBSCRIBE" name="subscribe" style="background: black; border-style: none; color: white; font-family: verdana, sans serif; font-size: 10pt; padding-top: 5pt; padding-bottom: 5pt; padding-left: 10pt; padding-right: 10pt;">
+		</div>
+            <div id="mce-responses">
+		<div id="mce-error-response" style="display: none" class="responses"></div>
+		<div id="mce-success-response" style="display:none" class="responses"></div>
+	</div>
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+        <input type="text" name="b_5f31c145a3f6a7f5225078d91_1838435f9b" tabindex="-1" value="">
+      </div>
+    </div>
+  </form>
+  <script type="text/javascript" src="http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script> 
+  <script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div> 
+  <!--End mc_embed_signup-->
+  <p> 
+	<a href="https://discord.gg/ZKBX694"><img src="Images/Discord-Logo-Color.png" alt="Discord" class="footer" style="margin-right: 10px;"></a>
+	<a href="https://www.facebook.com/InnerSloth/"><img src="Images/FB-f-Logo__blue_50.png" alt="Facebook" class="footer" style="margin-right: 10px;"></a>
+	<a href="https://twitter.com/InnerslothDevs"><img src="Images/Twitter_Social_Icon_Rounded_Square_Color_small.png" class="footer" alt="Twitter"></a>
+	<a href="https://innersloth.newgrounds.com/"><img src="Images/NG_TANK.png" class="footer" alt="Newgrounds" style="margin-left: 10px;"></a>
+  </p>
+</p></div>
+<!--Footer Ends-->
+</body>
+
+<!-- Mirrored from www.innersloth.com/gameHenryCollection.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Oct 2020 05:31:39 GMT -->
+</html>

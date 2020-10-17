@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #000000;
+	text-align: center;
+	font-family: Verdana, 'sans-serif';
+	font-size: 12pt;
+}
+div {
+	text-align: center;
+}
+.main {
+	/*black bg*/
+	background-color: #FFFFFF;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.outer {
+	/*grey border and footer*/
+	background-color: #262626;
+	width: 80%;
+	margin: auto;
+	padding-bottom: 10px;
+}
+.inner {
+	/*blue border*/
+	background-color: #2D75B6;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.logo {
+	/*For top Innersloth Logo*/
+	max-width: 250px;
+	width: 33%;
+	height: auto;
+}
+.buttons {
+	/*Menu buttons*/
+	height: auto;
+	width: 15%;
+	max-width: 125px;
+}
+.footer {
+	/*Newletter (maybe) and social media buttons*/
+	max-width: 50px;
+	width: 5%;
+	height: auto;
+}
+.responses {
+	color: white;
+}
+.responses a{
+	color:white;
+}
